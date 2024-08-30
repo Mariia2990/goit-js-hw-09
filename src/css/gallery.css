@@ -1,0 +1,23 @@
+a {
+    font-size: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.gallery-item {
+    flex-basis: calc((100% - 48px) / 4);
+}
+
+.gallery-link {
+    transition: transform 0.25s ease-in-out;
+}
+
+.gallery-link :hover {
+    transform: scale(1.03)
+}

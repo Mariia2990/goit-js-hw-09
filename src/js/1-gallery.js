@@ -85,6 +85,6 @@ galleryImg.innerHTML = galleryMarkup;
 
     const gallery = new SimpleLightbox('.gallery a', {
         captionsData:`alt`,
-        captionDelay: 250,
-        captionPosition: `bottom`,
+      captionPosition: `bottom`,
+      captionDelay: 250
 });
