@@ -68,10 +68,6 @@ textarea :hover {
     border-color: 1px solid #000000;
 }
 
-textarea ::placeholder {
-    color: #2E2F42;
-}
-
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;

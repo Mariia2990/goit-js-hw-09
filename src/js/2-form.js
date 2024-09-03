@@ -1,6 +1,3 @@
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
-
 let formData = { email: "", message: "" };
 
 const feedbackForm = document.querySelector(".feedback-form");
